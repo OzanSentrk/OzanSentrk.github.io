@@ -52,3 +52,9 @@ const typed = new Typed('.multiple-text',
 document.getElementById('CalorieCrafterBtn').addEventListener('click', function(){
     window.open('https://github.com/OzanSentrk/CalorieCrafter', '_blank');
 });
+document.getElementById('SurvyBtn').addEventListener('click', function(){
+    window.open('https://github.com/Adios011/SurveyManagementProject3', '_blank');
+});
+document.getElementById('EgemirBtn').addEventListener('click', function(){
+    window.open('https://github.com/OzanSentrk/Egemir_Baharat', '_blank');
+});
