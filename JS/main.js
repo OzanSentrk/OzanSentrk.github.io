@@ -56,5 +56,5 @@ document.getElementById('SurvyBtn').addEventListener('click', function(){
     window.open('https://github.com/Adios011/SurveyManagementProject3', '_blank');
 });
 document.getElementById('EgemirBtn').addEventListener('click', function(){
-    window.open('https://github.com/OzanSentrk/Egemir_Baharat', '_blank');
+    window.open('https://www.egemirbaharat.com', '_blank');
 });
