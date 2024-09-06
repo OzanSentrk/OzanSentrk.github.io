@@ -392,7 +392,39 @@ border-radius :50%;
         margin: 3rem 0;
     }
 
+    .swiper-prev.main-swiper-left,
+    .swiper-next.main-swiper-right {
+        width: 20px; /* Buton genişliğini daha da küçült */
+        height: 20px; /* Buton yüksekliğini daha da küçült */
+        background-color: rgba(255, 255, 255, 0.7); /* Butonun arka planını yarı saydam yap */
+        border-radius: 50%; /* Ok işaretlerini yuvarlak yap */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
+    .swiper-prev.main-swiper-left {
+        left: 5px; /* Sol oka daha fazla yer bırak */
+    }
+
+    .swiper-next.main-swiper-right {
+        right: 5px; /* Sağ oka daha fazla yer bırak */
+    }
+
+    .swiper-prev.main-swiper-left svg,
+    .swiper-next.main-swiper-right svg {
+        width: 10px; /* Okların genişliğini küçült */
+        height: 10px; /* Okların yüksekliğini küçült */
+    }
+
+    /* Metin ve butonların üst üste binmesini engelle */
+    .swiper-slide {
+        position: relative;
+    }
+
+    .swiper-pagination {
+        bottom: 10px; /* Paginasyonu aşağıya yerleştir */
+    }
 
 }
 @media(max-width: 617px){
@@ -407,6 +439,16 @@ border-radius :50%;
         width: 100vw;
         margin-top: 4rem;
     }
+    .swiper-prev.main-swiper-left,
+    .swiper-next.main-swiper-right {
+        width: 25px !important; /* Daha küçük genişlik */
+        height: 25px !important; /* Daha küçük yükseklik */
+    }
+    .swiper-prev.main-swiper-left svg,
+    .swiper-next.main-swiper-right svg {
+        width: 12px !important; /* Daha küçük SVG genişliği */
+        height: 12px !important; /* Daha küçük SVG yüksekliği */
+    }
 }
 @media(max-width: 450px){
     html{
@@ -414,6 +456,16 @@ border-radius :50%;
     }
     .contact form .input-box input{
         width: 100%;
+    }
+    .swiper-prev.main-swiper-left,
+    .swiper-next.main-swiper-right {
+        width: 25px !important; /* Daha küçük genişlik */
+        height: 25px !important; /* Daha küçük yükseklik */
+    }
+    .swiper-prev.main-swiper-left svg,
+    .swiper-next.main-swiper-right svg {
+        width: 12px !important; /* Daha küçük SVG genişliği */
+        height: 12px !important; /* Daha küçük SVG yüksekliği */
     }
 
 
