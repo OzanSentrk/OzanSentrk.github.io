@@ -242,6 +242,13 @@ span{
     opacity: 0.7;
     height: 40rem;
 }
+.portfolio-box .Search_photo{
+    width: 60%;
+    margin-left: 160px;
+    transition: .5s ease;
+    opacity: 0.7;
+    height: 40rem;
+}
 .portfolio-box:hover img{
     transform: scale(1.1);
 }
@@ -333,6 +340,13 @@ border-radius :50%;
     }
     .contact{
         min-height: auto;
+    }
+    .portfolio-box .Search_photo{
+        width: 60%;
+        margin-left: 90px;
+        transition: .5s ease;
+        opacity: 0.7;
+        height: 40rem;
     }
 
 }
@@ -479,7 +493,10 @@ border-radius :50%;
 #EgemirBtn{
     cursor: pointer;
 }
-/* css/styles.css dosyasına ekleyin */
+#AdvancedFileSearchBtn{
+    cursor: pointer;
+}
+
 
 .portfolio-box .survy_logo {
     max-width: 300px;  /* Maksimum genişlik */

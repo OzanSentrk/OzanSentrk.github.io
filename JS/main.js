@@ -43,7 +43,7 @@ ScrollReveal().reveal('.home-contact p, .about-content',{origin:'right'});
 
 const typed = new Typed('.multiple-text',
 {
-    strings: ['Frontend Developer','Software Engineer','Web Designer'],
+    strings: ['Frontend Developer','Software Engineer','Creative Technologist'],
     typeSpeed: 70,
     backSpeed: 70,
     backDelay:1000,
@@ -57,4 +57,7 @@ document.getElementById('SurvyBtn').addEventListener('click', function(){
 });
 document.getElementById('EgemirBtn').addEventListener('click', function(){
     window.open('https://www.egemirbaharat.com', '_blank');
+});
+document.getElementById('AdvancedFileSearchBtn').addEventListener('click', function(){
+    window.open('https://drive.google.com/file/d/1ETYJ8Jg92uZyg7d4cZK6CHwRGvlhzYLu/view?usp=drive_link', '_blank');
 });
